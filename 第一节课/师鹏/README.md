@@ -286,6 +286,16 @@ DHCP ·DNS · FTP · Gopher · HTTP· IMAP4 · IRC · NNTP · XMPP ·POP3 · SIP
 
 目前应用最为广泛的TCP/IP协议可以看作是OSI协议层的简化，它分为四层：数据链路层、网络层、传输层、应用层
 
+#### 正向代理与反向代理
+
+<img src="https://pic1.zhimg.com/50/480c1c45d2565e2f92fd930d25b73a18_hd.jpg">
+
+- 正向代理中，proxy和client同属一个LAN，对server透明；
+- 反向代理中，proxy和server同属一个LAN，对client透明。
+- 实际上proxy在两种代理中做的事都是代为收发请求和响应，不过从结构上来看正好左右互换了下，所以把后出现的那种代理方式叫成了反向代理。
+- 两者的区别在于代理的对象不一样：正向代理代理的对象是客户端，反向代理代理的对象是服务端
+
+
 #### 数据封装
 
 数据封装的过程大致如下：
