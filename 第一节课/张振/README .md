@@ -72,6 +72,6 @@ Chromium对底层缓存进行了建模，当Chrome浏览器启动的时候，就
   
   4.负载均衡 
 #### 参考资料 : 
-<a href='http://www.admin10000.com/document/2406.html''> DNS解析全过程</a>
+<a href='http://www.admin10000.com/document/2406.html'> DNS解析全过程 </a>
 
 
