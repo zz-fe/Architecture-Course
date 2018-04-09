@@ -1,14 +1,15 @@
 //通常我们写异步的话  这么写 
 
 
-let timeOver = (fn) => {
-    setTimeout(() => { fn() },3000)
-} 
+let timeOver = (fn) => fn() 
 
 timeOver(()=>{
-    console.log('30后执行')
+    console.log('妈妈给我钱')
     timeOver(()=>{
-        console.log('60后执行') 
+        console.log('我去书店') 
+        timeOver(()=>{
+            console.log('买了本JS书') 
+        })
     })
 })
 
