@@ -31,6 +31,4 @@ arr.forEach(function(val,i){
 //     });  
 // }  
   
-// arr.forEach(function(val,i){  
-//     console.log(val(),'2');
-// })
+
